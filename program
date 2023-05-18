@@ -1,0 +1,11 @@
+user_values=[]
+num_values = int(input())
+
+for i in range(num_values):
+    user_input = float(input())
+    user_values.append(user_input)
+    
+max_value = max(user_values)
+
+for i in range(num_values):
+    print(f'{user_values[i]/max_value:.2f}')
